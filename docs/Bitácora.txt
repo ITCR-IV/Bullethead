@@ -1,0 +1,19 @@
+I.T.C.R
+Ing. en Computadores
+Ignacio Vargas Campos - 2019053776
+Prof. Milton Villegas
+
+Bitácora:
+
+19/6/20:
+Hoy empieza el trabajo en el proyecto, aún no se crea nada. 
+Hoy solo me encargué de hacer un poco de plneamiento previo y crear un poco de orden.
+
+20/6/20:
+Hoy ya empecé a crear el programa, voy a empezar por crear el juego de primero e inciaré enfocándome en el jugador.
+Hoy el progresó que logré con esto fue poner un "dummy" sprite para el jugador (por el momento es un cuadrado amarillo) y descifrar cómo hacer que tkinter registre keypresses y mover una imagen en la pantalla.
+Tuve dificultad registrando keypresses simultaneos para lo que tuve que usar un método de registrar keypresses y keyreleases y guardar las teclas siendo estripdas en una lista global.
+
+21/6/20:
+El esqueleto de los misiles lo cree hoy, van a todos estar guardados en una lista global en el que cada misil va a representar un elemento de la lista
+LO SEGUÍ EN WORD

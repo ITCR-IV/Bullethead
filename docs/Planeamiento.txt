@@ -1,0 +1,66 @@
+Entrega: Miércoles 15 julio 2020 (Ver notas de reques antes de entrega)
+Menu:
+
+1.Jugar
+2.Pantalla de info
+3.Scoreboard
+
+Pantalla de info:
+-País de producción
+-Universidad y Carrera
+-Asignatura, año que cursa y grupo
+-Nombre del profesor
+-Versión del programa
+-Autor
+-Autores de módulos modificados/utilizados por usted
+-Instrucciones o datos que considere importantes para el uso del programa
++Controles del juego ajustables	
++Volver a menu
+
+Scoreboard:
+>Se guarda y se carga de un archivo
+-Mayores puntuaciones mayor a menor
++Se debe actualizar mientras corre el programa (si hay un nuevo highscore)
++Volver al menu
+
+Juego:
+
+info.
+-Puntaje actual
+-Tiempo de juego
+-Cantidad de vidas restantes
+-Nombre del jugador
+
+jugador.
++Disparar: just once per button press
++Saltar: can't jump in air
++moverse a izquierda y derecha: can't walk out of screen
+-3 vidas
+
+enemigos.
++MISIL: (1pt)
+  -cae del cielo
+  -quita 2 vidas
+  -tiene 1 vida
+
++ENEMIGO COMUN: (5pts)
+  -movimiento zigzag ("serpentea")
+  -Dipara 1 vez /segundo
+  -Disparos quitan 1 vida
+  -Tiene 3 vidas
+
++ENEMIGO APLASTADOR: (20pts destruido, 2pts evitado)
+  -Aparece arriba de la pantalla y cae al piso, se mueve a uno de los bordes y dispara en el sentido contrario 1 vez (hay que saltar para esquivarlo)
+  -Los dos ataques quitan 1 vida
+  -Desaparece cuando se va
+  -Tiene 5 vidas
+
+niveles.
+-3 niveles
+-duran 40segundos c/u
+-la transición es natural pero se pueden escoger desde el menu
+-Cada nivel aumenta la cantidad de enemigos que aparecen (por unidad de tiempo)
+
+
+
+

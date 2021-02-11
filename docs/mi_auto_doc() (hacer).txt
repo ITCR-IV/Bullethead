@@ -1,0 +1,6 @@
+Debe indicarse un archivo readme. txt con la versión de Python (>=3.3) a
+utilizar para la revisión, alguna otra indicación que se considere importante.
+Este archivo contiene el nombre y la descripción de una función o
+procedimiento especial designado mi_auto_doc(), que genera de forma
+automática (con print de Pyhthon), todas las autodocumentaciones de los
+principales módulos (mínimo 3).
